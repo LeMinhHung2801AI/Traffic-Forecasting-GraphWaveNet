@@ -1,0 +1,35 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.env.*
+env/
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Data files - DO NOT COMMIT LARGE DATA
+# Chỉ giữ lại cấu trúc thư mục rỗng, không commit nội dung
+data/runs/*
+!data/runs/.gitkeep
+data/runs_holdout_test/*
+!data/runs_holdout_test/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model artifacts and results
+*.pth
+*.png
+*.log
+
+# Configuration files that may contain secrets
+config/secrets.json
